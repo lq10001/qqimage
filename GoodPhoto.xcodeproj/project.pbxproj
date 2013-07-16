@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB15B01A168C7E810074A33E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB15B019168C7E810074A33E /* UIKit.framework */; };
+		DB15B01C168C7E810074A33E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB15B01B168C7E810074A33E /* Foundation.framework */; };
+		DB15B01E168C7E810074A33E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB15B01D168C7E810074A33E /* CoreGraphics.framework */; };
+		DB15B024168C7E810074A33E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB15B022168C7E810074A33E /* InfoPlist.strings */; };
+		DB15B026168C7E810074A33E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB15B025168C7E810074A33E /* main.m */; };
+		DB15B02A168C7E810074A33E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB15B029168C7E810074A33E /* AppDelegate.m */; };
+		DB15B02C168C7E810074A33E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DB15B02B168C7E810074A33E /* Default.png */; };
+		DB15B02E168C7E810074A33E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB15B02D168C7E810074A33E /* Default@2x.png */; };
+		DB15B030168C7E810074A33E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB15B02F168C7E810074A33E /* Default-568h@2x.png */; };
+		DB15B033168C7E810074A33E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB15B032168C7E810074A33E /* MainViewController.m */; };
+		DB15B036168C7E810074A33E /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB15B035168C7E810074A33E /* FlipsideViewController.m */; };
+		DB15B039168C7E810074A33E /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB15B037168C7E810074A33E /* MainViewController.xib */; };
+		DB15B03C168C7E810074A33E /* FlipsideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB15B03A168C7E810074A33E /* FlipsideViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DB15B015168C7E810074A33E /* GoodPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB15B019168C7E810074A33E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DB15B01B168C7E810074A33E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DB15B01D168C7E810074A33E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DB15B021168C7E810074A33E /* GoodPhoto-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoodPhoto-Info.plist"; sourceTree = "<group>"; };
+		DB15B023168C7E810074A33E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB15B025168C7E810074A33E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB15B027168C7E810074A33E /* GoodPhoto-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GoodPhoto-Prefix.pch"; sourceTree = "<group>"; };
+		DB15B028168C7E810074A33E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB15B029168C7E810074A33E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB15B02B168C7E810074A33E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DB15B02D168C7E810074A33E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DB15B02F168C7E810074A33E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DB15B031168C7E810074A33E /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		DB15B032168C7E810074A33E /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		DB15B034168C7E810074A33E /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		DB15B035168C7E810074A33E /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		DB15B038168C7E810074A33E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainViewController.xib; sourceTree = "<group>"; };
+		DB15B03B168C7E810074A33E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FlipsideViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB15B012168C7E810074A33E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB15B01A168C7E810074A33E /* UIKit.framework in Frameworks */,
+				DB15B01C168C7E810074A33E /* Foundation.framework in Frameworks */,
+				DB15B01E168C7E810074A33E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB15B00A168C7E810074A33E = {
+			isa = PBXGroup;
+			children = (
+				DB15B01F168C7E810074A33E /* GoodPhoto */,
+				DB15B018168C7E810074A33E /* Frameworks */,
+				DB15B016168C7E810074A33E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB15B016168C7E810074A33E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB15B015168C7E810074A33E /* GoodPhoto.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB15B018168C7E810074A33E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB15B019168C7E810074A33E /* UIKit.framework */,
+				DB15B01B168C7E810074A33E /* Foundation.framework */,
+				DB15B01D168C7E810074A33E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB15B01F168C7E810074A33E /* GoodPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				DB15B028168C7E810074A33E /* AppDelegate.h */,
+				DB15B029168C7E810074A33E /* AppDelegate.m */,
+				DB15B031168C7E810074A33E /* MainViewController.h */,
+				DB15B032168C7E810074A33E /* MainViewController.m */,
+				DB15B034168C7E810074A33E /* FlipsideViewController.h */,
+				DB15B035168C7E810074A33E /* FlipsideViewController.m */,
+				DB15B037168C7E810074A33E /* MainViewController.xib */,
+				DB15B03A168C7E810074A33E /* FlipsideViewController.xib */,
+				DB15B020168C7E810074A33E /* Supporting Files */,
+			);
+			path = GoodPhoto;
+			sourceTree = "<group>";
+		};
+		DB15B020168C7E810074A33E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB15B021168C7E810074A33E /* GoodPhoto-Info.plist */,
+				DB15B022168C7E810074A33E /* InfoPlist.strings */,
+				DB15B025168C7E810074A33E /* main.m */,
+				DB15B027168C7E810074A33E /* GoodPhoto-Prefix.pch */,
+				DB15B02B168C7E810074A33E /* Default.png */,
+				DB15B02D168C7E810074A33E /* Default@2x.png */,
+				DB15B02F168C7E810074A33E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB15B014168C7E810074A33E /* GoodPhoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB15B03F168C7E810074A33E /* Build configuration list for PBXNativeTarget "GoodPhoto" */;
+			buildPhases = (
+				DB15B011168C7E810074A33E /* Sources */,
+				DB15B012168C7E810074A33E /* Frameworks */,
+				DB15B013168C7E810074A33E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoodPhoto;
+			productName = GoodPhoto;
+			productReference = DB15B015168C7E810074A33E /* GoodPhoto.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB15B00C168C7E810074A33E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = zw;
+			};
+			buildConfigurationList = DB15B00F168C7E810074A33E /* Build configuration list for PBXProject "GoodPhoto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DB15B00A168C7E810074A33E;
+			productRefGroup = DB15B016168C7E810074A33E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB15B014168C7E810074A33E /* GoodPhoto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB15B013168C7E810074A33E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB15B024168C7E810074A33E /* InfoPlist.strings in Resources */,
+				DB15B02C168C7E810074A33E /* Default.png in Resources */,
+				DB15B02E168C7E810074A33E /* Default@2x.png in Resources */,
+				DB15B030168C7E810074A33E /* Default-568h@2x.png in Resources */,
+				DB15B039168C7E810074A33E /* MainViewController.xib in Resources */,
+				DB15B03C168C7E810074A33E /* FlipsideViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB15B011168C7E810074A33E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB15B026168C7E810074A33E /* main.m in Sources */,
+				DB15B02A168C7E810074A33E /* AppDelegate.m in Sources */,
+				DB15B033168C7E810074A33E /* MainViewController.m in Sources */,
+				DB15B036168C7E810074A33E /* FlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DB15B022168C7E810074A33E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB15B023168C7E810074A33E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DB15B037168C7E810074A33E /* MainViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB15B038168C7E810074A33E /* en */,
+			);
+			name = MainViewController.xib;
+			sourceTree = "<group>";
+		};
+		DB15B03A168C7E810074A33E /* FlipsideViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB15B03B168C7E810074A33E /* en */,
+			);
+			name = FlipsideViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB15B03D168C7E810074A33E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB15B03E168C7E810074A33E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB15B040168C7E810074A33E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoodPhoto/GoodPhoto-Prefix.pch";
+				INFOPLIST_FILE = "GoodPhoto/GoodPhoto-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DB15B041168C7E810074A33E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoodPhoto/GoodPhoto-Prefix.pch";
+				INFOPLIST_FILE = "GoodPhoto/GoodPhoto-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB15B00F168C7E810074A33E /* Build configuration list for PBXProject "GoodPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB15B03D168C7E810074A33E /* Debug */,
+				DB15B03E168C7E810074A33E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB15B03F168C7E810074A33E /* Build configuration list for PBXNativeTarget "GoodPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB15B040168C7E810074A33E /* Debug */,
+				DB15B041168C7E810074A33E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB15B00C168C7E810074A33E /* Project object */;
+}
