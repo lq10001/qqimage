@@ -148,12 +148,12 @@
 
     if (cameraProcessingQueue != NULL)
     {
-        dispatch_release(cameraProcessingQueue);
+//        dispatch_release(cameraProcessingQueue);
     }
 
     if (audioProcessingQueue != NULL)
     {
-        dispatch_release(audioProcessingQueue);
+//        dispatch_release(audioProcessingQueue);
     }
 }
 

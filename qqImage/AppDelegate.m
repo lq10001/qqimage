@@ -21,7 +21,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     [UMSocialData setAppKey:@"5155532456240bb726005905"];
-    
+        
     [UIApplication sharedApplication].statusBarHidden = YES;
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];

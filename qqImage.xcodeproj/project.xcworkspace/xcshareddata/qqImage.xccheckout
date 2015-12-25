@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9C07896E-99E3-440A-943D-58DAD2EA16A6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>qqImage</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6531FE7D9F5C9494AD660823C010E40A82EA25D4</key>
+		<string>https://git.oschina.net/dongfangx/image.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>qqImage.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6531FE7D9F5C9494AD660823C010E40A82EA25D4</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://git.oschina.net/dongfangx/image.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6531FE7D9F5C9494AD660823C010E40A82EA25D4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6531FE7D9F5C9494AD660823C010E40A82EA25D4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>image</string>
+		</dict>
+	</array>
+</dict>
+</plist>

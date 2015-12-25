@@ -58,10 +58,10 @@
     UIBarButtonItem *rightButtonItem = [[UIBarButtonItem alloc] initWithCustomView:finishBtn];
 	self.navigationItem.rightBarButtonItem = rightButtonItem;
             
-    nameLabel1.text = @"Saturation";
-    nameLabel2.text = @"Contrast";
-    nameLabel3.text = @"Brightness";
-    nameLabel4.text = @"Exposure";
+    nameLabel1.text = @"饱和度";
+    nameLabel2.text = @"对比度";
+    nameLabel3.text = @"亮 度";
+    nameLabel4.text = @"曝光度";
     
     [self setupFilter];
     

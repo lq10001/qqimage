@@ -121,7 +121,7 @@
     self.frameSV.scrollEnabled=YES;
     self.frameSV.bounces = NO;
     
-    for (i = 1; i <= 2 ;i++) {
+    for (i = 1; i <= 8 ;i++) {
         
         UIView *view1 = [[UIView alloc] initWithFrame:CGRectMake((i -1) * 80, 0, 80, 80)];
         view1.backgroundColor = [UIColor clearColor];
@@ -134,7 +134,7 @@
         btn.center = CGPointMake(view1.width * 0.5,view1.height * 0.5);
         [view1 addSubview:btn];
     }
-    self.frameSV.contentSize=CGSizeMake(80 * 14,self.frameSV.height);
+    self.frameSV.contentSize=CGSizeMake(80 * 8,self.frameSV.height);
     self.frameSV.hidden = YES;
     [self.view addSubview:self.frameSV];
 
@@ -148,6 +148,7 @@
     [self.view addSubview:saveView];
     
     UIButton *saveBtn = [TKGlobal getButton:@"button_save_normal" highlightName:@"button_save_pressed" target:self selector:@selector(onSave)];
+    [saveBtn setTitle:@"保存" forState:UIControlStateNormal];
     saveBtn.center = CGPointMake(saveView.width * 0.5, saveView.height * 0.5);
     [saveView addSubview:saveBtn];
     
