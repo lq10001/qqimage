@@ -5,18 +5,19 @@
 
 ## 预览图
 1 首页
-
+![输入图片说明](https://git.oschina.net/uploads/images/2017/0716/084030_925f1906_3018.png "屏幕截图.png")
 2 特效
-
+![输入图片说明](https://git.oschina.net/uploads/images/2017/0716/084042_f469c632_3018.png "屏幕截图.png")
 3 实时编辑
-
+![输入图片说明](https://git.oschina.net/uploads/images/2017/0716/084051_ad9156d6_3018.png "屏幕截图.png")
 4 边框
-
+![输入图片说明](https://git.oschina.net/uploads/images/2017/0716/084101_030b4231_3018.png "屏幕截图.png")
 5 裁剪
-
+![输入图片说明](https://git.oschina.net/uploads/images/2017/0716/084110_0adbc682_3018.png "屏幕截图.png")
 6 旋转
-
+![输入图片说明](https://git.oschina.net/uploads/images/2017/0716/084121_74b05041_3018.png "屏幕截图.png")
 7 保存分享
+![输入图片说明](https://git.oschina.net/uploads/images/2017/0716/084129_e7086791_3018.png "屏幕截图.png")
 
 ## 产品定位
 1. 图片编辑分享
