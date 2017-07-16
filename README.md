@@ -4,25 +4,19 @@
 ![输入图片说明](https://mp.weixin.qq.com/mp/qrcode?scene=10000004&size=102&__biz=MzIzMTE0NTE5Mg==&mid=2651421365&idx=1&sn=ec2b310f1888fca3560ba504af0077f5&send_time= "在这里输入图片标题")
 
 ## 预览图
-1 首页
+1. 首页
 ![输入图片说明](https://git.oschina.net/uploads/images/2017/0716/084030_925f1906_3018.png "屏幕截图.png")
-
-2 特效
+2. 特效
 ![输入图片说明](https://git.oschina.net/uploads/images/2017/0716/084042_f469c632_3018.png "屏幕截图.png")
-
-3 实时编辑
+3. 实时编辑
 ![输入图片说明](https://git.oschina.net/uploads/images/2017/0716/084051_ad9156d6_3018.png "屏幕截图.png")
-
-4 边框
+4. 边框
 ![输入图片说明](https://git.oschina.net/uploads/images/2017/0716/084101_030b4231_3018.png "屏幕截图.png")
-
-5 裁剪
+5. 裁剪
 ![输入图片说明](https://git.oschina.net/uploads/images/2017/0716/084110_0adbc682_3018.png "屏幕截图.png")
-
-6 旋转
+6. 旋转
 ![输入图片说明](https://git.oschina.net/uploads/images/2017/0716/084121_74b05041_3018.png "屏幕截图.png")
-
-7 保存分享
+7. 保存分享
 ![输入图片说明](https://git.oschina.net/uploads/images/2017/0716/084129_e7086791_3018.png "屏幕截图.png")
 
 ## 产品定位
